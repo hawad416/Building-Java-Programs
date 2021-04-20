@@ -1,0 +1,30 @@
+public static void switchPairs(Stack<Integer> a){
+   Queue<Integer> storage = new LinkedList<Integer>();
+    
+    if(a.isEmpty()){
+        
+    }else if(a.size()%2==1){
+        int peek = a.pop();
+        storage.add(peek);
+    }
+    
+    while(!a.isEmpty()){
+       int firstNum = a.pop();
+       int secNum = a.pop();
+        storage.add(secNum);
+        storage.add(firstNum);
+    }
+    
+    while(!storage.isEmpty()){
+       a.push(storage.remove());
+    }
+    
+    while(!a.isEmpty()){
+       storage.add(a.pop()); 
+    }
+    
+    while(!storage.isEmpty()){
+       a.push(storage.remove()); 
+    }
+    
+}
