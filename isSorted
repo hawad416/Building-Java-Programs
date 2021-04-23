@@ -24,6 +24,7 @@ Your solution should run in O(N) time, where N is the number of elements of the 
 //approach: basically slowly empty contents of stack into another stack and simultaneously compare each peek. 
 //if my boolean value is ever contradicted and set to fasle, then automatically exist the while loop by emptying all contents of stack into storage stack q.
 //then restore stack.
+// O(N) Runtime Complexity
 
 public static boolean isSorted(Stack<Integer> s){
     
