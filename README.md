@@ -1,5 +1,6 @@
-# Building-Java-Programs-Stacks-Queues
-Stacks &amp; Queues  Practice Using Java. 
+# Building-Java-Programs
+
+Practice Using Java. 
 
 UW Practice-It Website: https://practiceit.cs.washington.edu
 
