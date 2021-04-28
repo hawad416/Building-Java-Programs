@@ -1,4 +1,4 @@
-Write a method isPalindrome that takes a queue of integers as a parameter and returns true if the numbers in the queue represent 
+/**Write a method isPalindrome that takes a queue of integers as a parameter and returns true if the numbers in the queue represent 
 
 a palindrome (and false otherwise). A sequence of numbers is considered a palindrome if it is the same in reverse order. 
 
