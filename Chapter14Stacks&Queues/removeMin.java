@@ -61,7 +61,7 @@ although you can have as many primitive variables as you like. You may not solve
 
 		
 
-		int num1 = q.remove();
+		int num = q.remove();
 
 		s.push(num);
 
