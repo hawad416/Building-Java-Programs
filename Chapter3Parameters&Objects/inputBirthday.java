@@ -7,6 +7,7 @@ and year of birth, then prints the birthdate in a suitable format.
         
 		System.out.print("On what day of the month were you born? ");
 		int born = scan.nextInt();
+		scan.nextLine(); //handle the int enter key thing
         
 		System.out.print("What is the name of the month in which you were born? ");
 		String name = scan.next();
