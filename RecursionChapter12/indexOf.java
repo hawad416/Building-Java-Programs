@@ -1,3 +1,12 @@
+	public static int indexOf(String input1, String input2) {
+		
+		if(input1 == null || input2 == null) throw new IllegalArgumentException("Null Strings");
+		
+		return indexOf(input1, input2, 0);
+		
+	}
+
+
 
 	private static int indexOf(String input1, String input2, int count) {
 		
@@ -13,13 +22,4 @@
 					count++;
 					return indexOf(input1.substring(1), input2, count); 
 				}
-	}
-
-
-	public static int indexOf(String input1, String input2) {
-		
-		if(input1 == null || input2 == null) throw new IllegalArgumentException("Null Strings");
-		
-		return indexOf(input1, input2, 0);
-		
 	}
